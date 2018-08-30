@@ -1,10 +1,6 @@
-# docker-lamp
-Docker example with Apache, MySql 5.7, PhpMyAdmin and Php
+### Apache, mysql 5.7, php (with phpMyadmin)
 
-I use docker-compose as an orchestrator. To run these containers:
-
-```
-docker-compose up -d
-```
-
-That's it!
+1. git clone https://github.com/Uttah/lamp.git
+2. cd lamp
+3. mkdir www dump db
+4. docker-compose up -d
